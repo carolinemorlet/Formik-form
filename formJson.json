@@ -1,0 +1,98 @@
+
+{
+  "fields" : [
+      {
+          "name":"Nom et prénom",
+          "field":"FLD_STR_101",
+          "visible":true,
+          "required":false,
+          "readonly":false,
+          "type":"EDIT_STRING"
+      },
+      {
+          "name":"Poste",
+          "field":"FLD_STR_102",
+          "visible":true,
+          "required":false,
+          "readonly":false,
+          "type":"EDIT_STRING"
+          
+      },
+      {
+          "name":"Number no decimal",
+          "field":"FLD_DCM_501",
+          "visible":true,
+          "required":false,
+          "readonly":false,
+          "type":"NUMBER",
+          "currencyChar":"",
+          "nbDecimal":0
+       },
+       {
+          "name":"Number decimal",
+          "field":"FLD_DCM_502",
+          "visible":true,
+          "required":false,
+          "readonly":false,
+          "type":"NUMBER",
+          "currencyChar":"km",
+          "nbDecimal":2
+       },
+       {
+          "name":"Date",
+          "field":"FLD_DTT_601",
+          "visible":true,
+          "required":false,
+          "readonly":false,
+          "type":"DATE",
+          "currencyChar":"",
+          "nbDecimal":0
+       },
+       {
+          "name":"RichEdit",
+          "field":"FLD_CLB_802",
+          "visible":true,
+          "required":false,
+          "readonly":false,
+          "type":"RICH_EDIT",
+          "currencyChar":"",
+          "nbDecimal":0
+       },
+       {
+          "id":11229533,
+          "field":"FLD_INT_701",
+          "name":"Closed list",
+          "visible":true,
+          "required":false,
+          "readOnly":false,
+          "type":"COMBO_CLOSED_INDEX_STRING",
+          "items":[
+             {
+                "listId":11229533,
+                "id":11229534,
+                "label":"ABANDON",
+                "ordeR_ITEM":null
+             },
+             {
+                "listId":11229533,
+                "id":11229535,
+                "label":"5.5",
+                "ordeR_ITEM":null
+             },
+             {
+                "listId":11229533,
+                "id":11229536,
+                "label":"5.6",
+                "ordeR_ITEM":null
+             },
+             {
+                "listId":11229533,
+                "id":11229537,
+                "label":"6.0",
+                "ordeR_ITEM":null
+             }
+          ],
+          "multipleClosedList":false
+       }
+  ]
+}
